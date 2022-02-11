@@ -10,7 +10,7 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-        <lvc:PieChart Series="{Binding Series}" >
+        <lvc:PieChart x:Name="mychart" Series="{Binding Series}" >
         </lvc:PieChart>
     </Grid>
 </UserControl>

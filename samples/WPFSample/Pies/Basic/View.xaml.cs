@@ -10,6 +10,8 @@ namespace WPFSample.Pies.Basic
         public View()
         {
             InitializeComponent();
+            mychart.InitialRotation = 270;
+            
         }
     }
 }
