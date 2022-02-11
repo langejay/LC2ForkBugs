@@ -17,6 +17,6 @@
             <Button Margin="6" Command="{Binding UpdateAllCommand}">Update all</Button>
             <Button Margin="6" Click="Button_Click">Constant changes</Button>
         </StackPanel>
-        <lvc:PieChart Grid.Row="1" Series="{Binding Series}"></lvc:PieChart>
+        <lvc:PieChart TooltipPosition="Hidden" Grid.Row="1" Series="{Binding Series}"></lvc:PieChart>
     </Grid>
 </UserControl>
